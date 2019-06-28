@@ -14,20 +14,10 @@ working like .innerHTML
 put content html inside tag 
 v-show: Manage displaying object true or false 
 v-if, v-else
-v-model for input
-v-pre (ignore des elements)
 -->
 <div id="app">
-	<!-- <h1 v-if="view" v-html='message'></h1> -->
-	<!-- <h1 v-else="view">false</h1> -->
-
-	<input type="text" v-model="message1">
-	<h1>{{ message1 }}</h1>
-
-	<input type="checkbox" v-model="checked">
-	<label for="checkbox">{{ checked }}</label>
-
-	<h1 v-pre>{{ Lorem ipsum dolor sit amet, tempor incididunt ut labore et dolore magna aliqua.}}</h1>
+	<h1 v-if="view" v-html='message'></h1>
+	<h1 v-else="view">false</h1>
 </div>
 
 <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
